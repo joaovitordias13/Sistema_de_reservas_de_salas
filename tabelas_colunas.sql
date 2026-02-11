@@ -7,7 +7,7 @@ CREATE TABLE departamento (
 
 
 -- Tabela sala
-CREATE TABLE sala (
+CREATE TABLE salas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     capacidade INT NOT NULL,
     localizacao VARCHAR(100) NOT NULL UNIQUE
