@@ -1,6 +1,5 @@
-
 -- Tabela departamento
-CREATE TABLE departamento (
+CREATE TABLE departamentos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL UNIQUE
 );
@@ -15,7 +14,7 @@ CREATE TABLE salas (
 
 
 -- Tabela usuario
-CREATE TABLE usuario (
+CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL UNIQUE,
@@ -26,7 +25,7 @@ CREATE TABLE usuario (
 );
 
 -- Tabela reserva
-CREATE TABLE reserva (
+CREATE TABLE reservas (
     id INT AUTO_INCREMENT PRIMARY KEY,
     sala_id INT NOT NULL,
     usuario_id INT NOT NULL,
@@ -39,8 +38,6 @@ CREATE TABLE reserva (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
-
-
 
 -- Tabela booking
 CREATE TABLE booking (
@@ -55,7 +52,6 @@ CREATE TABLE booking (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
-
 
 CREATE TABLE historico (
     id INT AUTO_INCREMENT PRIMARY KEY,
