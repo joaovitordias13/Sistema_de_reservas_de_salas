@@ -1,23 +1,33 @@
-## 📘 Sistema de Reservas de Salas
+# <div align="center"> Sistema de Reservas de Salas</div>
+<br>
 
-A empresa possui dezenas de salas distribuídas em seus prédios, usadas para reuniões, treinamentos e apresentações. Com o crescimento, tornou-se difícil coordenar reservas, evitar conflitos de agenda e garantir transparência.
+# 🛠 Tecnologias utilizadas:
+<br>
+<div style="display: inline_block">
+  <div align="center">
+  <img align="center" alt="Docker" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
+   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dbeaver/dbeaver-original.svg">
+
+</div>
+<br>
+
+# 💻  Sobre o Projeto:
+<li>A empresa possui dezenas de salas distribuídas em seus prédios, usadas para reuniões, treinamentos e apresentações. Com o crescimento, tornou-se difícil coordenar reservas, evitar conflitos de agenda e garantir transparência.
 
 **Missão:** Criar o design de um banco de dados para gerenciar reservas de salas, atendendo às necessidades de controle de usuários, departamentos, salas, reservas, lotação e histórico de alterações.
 
 
-Ferramentas Utilizadas
-🐳 Docker
-O banco foi containerizado usando Docker para garantir portabilidade e facilidade de configuração
+ </br>
 
-🛠️ DBeaver
-Ferramenta utilizada para:
-- Conectar ao banco MySQL rodando no Docker.
-- Criar e gerenciar tabelas, chaves e triggers.
-- Visualizar e exportar o diagrama ER.
-- Executar queries de teste e popular o banco com dados.
 
-📊 Estrutura do Banco de Dados
+# 🛠 Ferramentas Utilizadas :
+<ul>
+        <li>Docker: O banco foi containerizado usando Docker para garantir portabilidade e facilidade de configuração.</li>
+        <li>DBeaver: Utilizamos o DBeaver para conectar ao banco MySQL rodando no Docker, criar e gerenciar tabelas, chaves e triggers, visualizar e exportar o diagrama ER, executar queries de teste e popular o banco com dados.</li>
+        
+</ul>
 
+# 📊 Estrutura do Banco de Dados:
 1. Departamentos
 
 - Cada departamento possui um identificador único e um nome.
@@ -50,8 +60,7 @@ Ferramenta utilizada para:
 - Registra todas as alterações realizadas nas reservas.
 - Inclui quem fez a alteração e quando.
 
-🚀 Como subir o projeto (GitHub + Docker)
-- Clonar o repositório
-- Subir o container
 
+# 🔄 Diagrama :
+  <img width="518" height="555" alt="sistema_reservas_de_salas" src="https://github.com/user-attachments/assets/7bb473d2-ea9e-4141-ac1d-0903f5dc4285" />
 
