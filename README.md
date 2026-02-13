@@ -69,7 +69,7 @@
 - Registra todas as alterações realizadas nas reservas.
 - Inclui quem fez a alteração e quando.
 
-🔄 Triggers de Auditoria
+# 📑 Triggers de Auditoria :
 
 - **AFTER INSERT** → registra criação (`CRIACAO`).
 - **AFTER UPDATE** → registra atualização (`ATUALIZACAO`).
