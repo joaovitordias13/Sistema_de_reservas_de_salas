@@ -69,7 +69,12 @@
 - Registra todas as alterações realizadas nas reservas.
 - Inclui quem fez a alteração e quando.
 
+🔄 Triggers de Auditoria
 
+- **AFTER INSERT** → registra criação (`CRIACAO`).
+- **AFTER UPDATE** → registra atualização (`ATUALIZACAO`).
+- **AFTER DELETE** → registra exclusão (`EXCLUSAO`).
+  
 # 🔄 Diagrama :
   <img width="518" height="555" alt="sistema_reservas_de_salas" src="https://github.com/user-attachments/assets/7bb473d2-ea9e-4141-ac1d-0903f5dc4285" />
 
