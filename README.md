@@ -25,7 +25,8 @@
         <li>DBeaver: Utilizamos o DBeaver para conectar ao banco MySQL rodando no Docker, criar e gerenciar tabelas, chaves e triggers, visualizar e exportar o diagrama ER, executar queries de teste e popular o banco com dados.</li>
         
 </ul>
-# 🚀 Como subir o projeto :
+
+# 🚀  Como subir o Projeto:
 1. Clonar o repositório
 2. Subir o container
 3. Conectar via DBeaver:
