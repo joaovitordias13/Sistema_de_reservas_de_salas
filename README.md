@@ -18,6 +18,13 @@
 
 
  </br>
+
+# 📘 Ferramentas Utilizadas :
+<ul>
+        <li>Docker: O banco foi containerizado usando Docker para garantir portabilidade e facilidade de configuração.</li>
+        <li>DBeaver: Utilizamos o DBeaver para conectar ao banco MySQL rodando no Docker, criar e gerenciar tabelas, chaves e triggers, visualizar e exportar o diagrama ER, executar queries de teste e popular o banco com dados.</li>
+        
+</ul>
 # 🚀 Como subir o projeto :
 1. Clonar o repositório
 2. Subir o container
@@ -27,13 +34,6 @@
   - Usuário: usuario
   - Senha: senha
   - Banco: sistema_reservas_de_salas
-
-# 📘 Ferramentas Utilizadas :
-<ul>
-        <li>Docker: O banco foi containerizado usando Docker para garantir portabilidade e facilidade de configuração.</li>
-        <li>DBeaver: Utilizamos o DBeaver para conectar ao banco MySQL rodando no Docker, criar e gerenciar tabelas, chaves e triggers, visualizar e exportar o diagrama ER, executar queries de teste e popular o banco com dados.</li>
-        
-</ul>
 
 # 📊 Estrutura do Banco de Dados:
 1. **Departamentos** :
