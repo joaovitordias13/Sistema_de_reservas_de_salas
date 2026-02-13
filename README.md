@@ -75,6 +75,9 @@
 - **AFTER UPDATE** → registra atualização (`ATUALIZACAO`).
 - **AFTER DELETE** → registra exclusão (`EXCLUSAO`).
   
+# 📌 Observação :
+ - Caso o usuário não possua permissão para criar Triggers no MySQL, deve ser adicionada a seguinte linha ao serviço no arquivo docker-compose.yml: command: --log-bin-trust-function-creators=1. Essa configuração permite a criação de triggers e procedures sem a necessidade de privilégios adicionais.
+
 # 🔄 Diagrama :
   <img width="518" height="555" alt="sistema_reservas_de_salas" src="https://github.com/user-attachments/assets/7bb473d2-ea9e-4141-ac1d-0903f5dc4285" />
 
