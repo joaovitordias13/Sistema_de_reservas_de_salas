@@ -1,4 +1,4 @@
-INSERT into departamento (nome)
+INSERT into departamentos (nome)
 VALUES 
 ('Recursos Humanos'),
 ('Plataformas digitais'),
@@ -15,7 +15,7 @@ VALUES
 (13, 'Sala Tucano - 7º Andar'),
 (12, 'Sala Pica-pau - 2º Andar'),
 (16, 'Sala Cacau - 2º Andar'),
-(18, 'Sala Piu-piu - 2º Andar')
+(18, 'Sala Piu-piu - 2º Andar'),
 (10, 'Sala Bem-te-vi - 7º Andar'),
 (9, 'Sala Tico-Tico - 4º Andar'),
 (15, 'Sala Arara - 7º Andar');
