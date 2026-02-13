@@ -18,7 +18,15 @@
 
 
  </br>
-
+# 🚀 Como subir o projeto :
+1. Clonar o repositório
+2. Subir o container
+3. Conectar via DBeaver:
+  - Host: localhost
+  - Porta: 3310
+  - Usuário: usuario
+  - Senha: senha
+  - Banco: sistema_reservas_de_salas
 
 # 📘 Ferramentas Utilizadas :
 <ul>
